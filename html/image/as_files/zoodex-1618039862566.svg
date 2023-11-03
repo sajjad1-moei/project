@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2414" data-name="Group 2414" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="B5" transform="translate(1850 42.816)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_2026" data-name="Path 2026" d="M28,88.509a18.365,18.365,0,0,1-28,.155l2.117-3.035a14.814,14.814,0,0,0,23.74-.139Z" transform="translate(0 -68.698)" fill="#ffb900"/>
+          <path id="Path_2027" data-name="Path 2027" d="M82.863,16.792a14.793,14.793,0,0,1-11.923,6.02V0Z" transform="translate(-57.006)" fill="#2e4aaa"/>
+          <path id="Path_2028" data-name="Path 2028" d="M22.6,0V22.812A14.783,14.783,0,0,1,10.78,16.932Z" transform="translate(-8.663)" fill="#475fb4"/>
+          <circle id="Ellipse_239" data-name="Ellipse 239" cx="2.206" cy="2.206" r="2.206" transform="translate(6.335 13.697)" fill="#8f9bd0"/>
+          <circle id="Ellipse_240" data-name="Ellipse 240" cx="1.546" cy="1.546" r="1.546" transform="translate(18.756 15.13)" fill="#8f9bd0"/>
+          <circle id="Ellipse_241" data-name="Ellipse 241" cx="1.705" cy="1.705" r="1.705" transform="translate(12.473 7.454)" fill="#fff"/>
+          <ellipse id="Ellipse_242" data-name="Ellipse 242" cx="4.863" cy="5.058" rx="4.863" ry="5.058" transform="translate(12.357 4.054)" fill="#a4b0da" style="mix-blend-mode: color-burn;isolation: isolate"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

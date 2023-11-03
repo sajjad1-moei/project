@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2425" data-name="Group 2425" transform="translate(-1848 -40)" style="isolation: isolate">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="gift" transform="translate(1853.115 43.221)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(-1.252 -1.221)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+          <path id="Path_2096" data-name="Path 2096" d="M11.229,31.78V49.816h-8.5A1.733,1.733,0,0,1,1,48.083V33.495A1.715,1.715,0,0,1,2.718,31.78Z" transform="translate(-0.32 -21.816)" fill="#3a4ba7"/>
+          <path id="Path_2097" data-name="Path 2097" d="M45.148,34.992V48.083a1.73,1.73,0,0,1-1.733,1.733H34.88V31.78H45.145Z" transform="translate(-23.971 -21.816)" fill="#505fb1"/>
+          <rect id="Rectangle_2015" data-name="Rectangle 2015" width="4.547" height="18.045" transform="translate(8.608 9.955)" fill="#ffb900"/>
+          <rect id="Rectangle_2016" data-name="Rectangle 2016" width="23.359" height="6.603" rx="3.301" transform="translate(1.849 0) rotate(16.26)" fill="#3a4ba7"/>
+          <rect id="Rectangle_2017" data-name="Rectangle 2017" width="4.547" height="6.642" transform="translate(10.595 2.524) rotate(16.26)" fill="#ffb900"/>
+          <ellipse id="Ellipse_268" data-name="Ellipse 268" cx="5.284" cy="5.495" rx="5.284" ry="5.495" transform="translate(5.704 4.665)" fill="#a7afd8" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <circle id="Ellipse_269" data-name="Ellipse 269" cx="1.854" cy="1.854" r="1.854" transform="translate(9.134 8.306)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

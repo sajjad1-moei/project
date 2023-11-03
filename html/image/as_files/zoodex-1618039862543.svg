@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2409" data-name="Group 2409" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="B3" transform="translate(1850 45.808)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 -1.294)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_2016" data-name="Path 2016" d="M19.9,27.45H36.188a2.483,2.483,0,0,1,2.483,2.483V33.9H17.42V29.931A2.483,2.483,0,0,1,19.9,27.45Z" transform="translate(-14.015 -21.831)" fill="#ffb900"/>
+          <path id="Path_2017" data-name="Path 2017" d="M79.749,55.17l-1.222,2.645-.371.805a1.03,1.03,0,0,1-1.368.5.919.919,0,0,1-.135-.076,1.024,1.024,0,0,1-.391-1.228.289.289,0,0,1,.023-.057l.364-.782.831-1.8Z" transform="translate(-61.298 -44.133)" fill="#8f9bd0"/>
+          <path id="Path_2018" data-name="Path 2018" d="M85.692,44.19,82.729,55.383a3.859,3.859,0,0,1-1.056,1.791c-.055.053-.111.1-.17.154a3.894,3.894,0,0,1-1.173.688,3.773,3.773,0,0,1-1.325.238h-7.3V44.18Z" transform="translate(-57.692 -35.291)" fill="#2e4aaa"/>
+          <path id="Path_2019" data-name="Path 2019" d="M14.018,44.23V58.3H6.7a3.859,3.859,0,0,1-3.73-2.871L0,44.23Z" transform="translate(0 -35.331)" fill="#475fb4"/>
+          <rect id="Rectangle_2011" data-name="Rectangle 2011" width="1.974" height="11.123" rx="0.987" transform="translate(22.187) rotate(30)" fill="#475fb4"/>
+          <ellipse id="Ellipse_235" data-name="Ellipse 235" cx="4.84" cy="5.034" rx="4.84" ry="5.034" transform="translate(13.134 4.125)" fill="#a4b0da" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <circle id="Ellipse_236" data-name="Ellipse 236" cx="1.697" cy="1.697" r="1.697" transform="translate(16.277 7.462)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

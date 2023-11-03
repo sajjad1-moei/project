@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #3a4ba7;
+      }
+
+      .cls-4 {
+        fill: #505fb1;
+      }
+
+      .cls-5 {
+        fill: #ffb800;
+      }
+
+      .cls-6 {
+        fill: #ffcd48;
+      }
+
+      .cls-7 {
+        fill: #a7afd8;
+        mix-blend-mode: color-burn;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_3097" data-name="Group 3097" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" class="cls-1" width="32" height="32" transform="translate(1848 40)"/>
+    <g id="attari" class="cls-2" transform="translate(1851.126 41.992)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.008)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+          <path id="Path_2800" data-name="Path 2800" class="cls-3" d="M10.175,15.39V39.064H3.294L4.431,33.82,0,15.39Z" transform="translate(0 -11.136)"/>
+          <path id="Path_2801" data-name="Path 2801" class="cls-4" d="M42.786,34.086l1.128,4.978H36.79V15.39H47.211Z" transform="translate(-26.615 -11.136)"/>
+          <path id="Path_2802" data-name="Path 2802" class="cls-5" d="M64.078,61.392s-5.705-.857-8.692,2.132-2.132,8.7-2.132,8.7,5.7.857,8.692-2.132S64.078,61.392,64.078,61.392Z" transform="translate(-38.444 -44.333)"/>
+          <path id="Path_2803" data-name="Path 2803" class="cls-5" d="M36.77,53.157c0,4.226,4.641,7.655,4.641,7.655l1.245-6.87L41.411,45.51S36.77,48.928,36.77,53.157Z" transform="translate(-26.601 -32.926)"/>
+          <path id="Path_2804" data-name="Path 2804" class="cls-6" d="M53.55,45.48V60.79s4.641-3.429,4.641-7.655S53.55,45.48,53.55,45.48Z" transform="translate(-38.74 -32.904)"/>
+          <path id="Path_2805" data-name="Path 2805" class="cls-3" d="M57.551,1.984,56.444,4.262H53.38l1.7-3.485A1.383,1.383,0,0,1,56.92.144h0a1.383,1.383,0,0,1,.631,1.839Z" transform="translate(-38.617 -0.008)"/>
+          <ellipse id="Ellipse_424" data-name="Ellipse 424" class="cls-7" cx="5.08" cy="4.884" rx="5.08" ry="4.884" transform="translate(5.044 16.179)"/>
+          <circle id="Ellipse_425" data-name="Ellipse 425" class="cls-8" cx="1.712" cy="1.712" r="1.712" transform="translate(8.413 19.351)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

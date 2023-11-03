@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2412" data-name="Group 2412" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="B8" transform="translate(1850.898 44.008)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 -0.008)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+          <path id="Path_2037" data-name="Path 2037" d="M20.972,11.56V33.514A11.223,11.223,0,0,1,9.52,22.536,11.224,11.224,0,0,1,20.972,11.56Z" transform="translate(-7.837 -9.514)" fill="#475fb4"/>
+          <path id="Path_2038" data-name="Path 2038" d="M85.752,22.536A11.224,11.224,0,0,1,74.3,33.514h0V11.56h0A11.221,11.221,0,0,1,85.752,22.536Z" transform="translate(-61.161 -9.514)" fill="#2e4aaa"/>
+          <path id="Path_2039" data-name="Path 2039" d="M0,113.09H26.2v1.164a2.829,2.829,0,0,1-2.829,2.829H2.829A2.829,2.829,0,0,1,0,114.254Z" transform="translate(0 -93.09)" fill="#ffb900"/>
+          <path id="Path_2040" data-name="Path 2040" d="M81.331,1.247A7.579,7.579,0,0,1,88.491.6a6.9,6.9,0,0,1-3.116,6.214,7.565,7.565,0,0,1-7.158.638,6.9,6.9,0,0,1,3.114-6.209Z" transform="translate(-64.374 0.008)" fill="#ffb900"/>
+          <ellipse id="Ellipse_248" data-name="Ellipse 248" cx="4.523" cy="4.509" rx="4.523" ry="4.509" transform="translate(11.47 5.16)" fill="#a4b0da" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <ellipse id="Ellipse_249" data-name="Ellipse 249" cx="1.586" cy="1.521" rx="1.586" ry="1.521" transform="translate(12.578 5.849)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

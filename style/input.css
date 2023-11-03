@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    
+}
+@layer components{
+    .btn-danger{
+              @apply rounded-lg  bg-red border-none p-[10px] text-white;
+    }
+    .btn-primary{
+            @apply   rounded-lg  bg-primary border-none p-[10px] text-white;
+    }
+    .btn-success{
+              @apply rounded-lg  bg-success border-none p-[10px] text-white;
+    }
+    .btn-info{
+            @apply   rounded-lg  bg-info border-none p-[10px] text-white;
+    }
+    .btn-secondary{
+        @apply rounded-lg  bg-secondary border-none p-[10px] text-white;
+    }
+    .btn-purple{
+        @apply rounded-lg  bg-purple border-none p-[10px] text-white;
+    }
+    .btn-warning{
+        @apply rounded-lg  bg-warning border-none p-[10px] text-white;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #dee2e6;
+        border-radius: 0.375rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        outline: 0px;
+        
+}
+    }

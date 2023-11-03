@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="stylesheet" href="./src/tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Scrool To Div -->
+    <div id="Scrool-To">
+      <i class="fa fa-angle-up"></i>
+    </div>
+
+    <!-- Header Site -->
+
+    <header class="">
+      <div class="xl:container px-5 flex py-3 justify-between">
+        <div class="flex">
+          <div class="img-logo my-auto">
+            <a href="../index.html">
+              <img src="./image/logo.177e5a9 (2).png" alt="" />
+            </a>
+          </div>
+          <div class="ms-14 my-auto cursor-pointer relative ps-4" id="city-btn">
+            <i class="fa fa-map-marker absolute right-0.5 top-0.5" style="font-size: 18px"></i>
+            <span class="Span-City">کرمان</span>
+          </div>
+        </div>
+        <div class="my-auto cursor-pointer relative ps-4 city-btn mobileCity">
+          <i class="fa fa-map-marker absolute right-0.5 top-0.5" style="font-size: 18px"></i>
+          <span class="Span-City">کیش</span>
+        </div>
+        <div class="flex">
+          <div class="a h-max cursor-pointer header-item my-auto px-4" id="a">
+            <div class="search-icon">
+              <i class="fa fa-search"></i>
+              <span class="text-[#666] text-sm">جستجو</span>
+            </div>
+            <div class="inputSearch h-max w-max flex" style="display: none">
+              <i class="fa fa-close p-2" id="close-input"></i>
+              <input
+                type="text"
+                class="form-control mt-0 py-4 text-xs w-60 inline"
+                style="border: 2px solid var(--main-color)"
+                placeholder="نام مجموعه یا محصول را جستجو کنید"
+              />
+            </div>
+          </div>
+          <div class="header-item pe-4 md:px-4 my-auto h-2/4 cursor-pointer btn-Submit n">
+            <i class="fa fa-user"></i>
+            <span class="text-[#666] text-sm"> ورود / ثبت نام </span>
+          </div>
+          <div class="a relative header-item ps-4 my-auto header-item h-2/4 cursor-pointer border-none btnBasket">
+            <i class="fa fa-shopping-basket"></i>
+            <span class="text-[#666] text-sm">سبد خرید</span>
+            <span
+              class="px-1.5 bg-red absolute right-1.5 rounded-full top-0 py-0.5 elanBasketTedad text-white text-xs"
+              style="height: 20px; display: none"
+            ></span>
+          </div>
+          <div class="my-auto p-3 cursor-pointer navicon">
+            <i class="fa fa-navicon"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- menu buttom -->
+
+    <div
+      class="w-full h-max py-3 shadow-lg grid grid-cols-5 fixed bottom-0 bg-white text-sm"
+      style="z-index: 40; box-shadow: 5px 5px 10px 5px #ccc"
+      id="menu-Buttom"
+    >
+      <div class="text-center my-auto btnBasket">
+        <span>
+          <i class="fa fa-reorder"></i>
+        </span>
+        <p>سفارشات</p>
+      </div>
+      <div class="text-center my-auto" id="Btn-Search-MenuSubmit">
+        <span>
+          <i class="fa fa-search"></i>
+        </span>
+        <p>جستجو</p>
+      </div>
+
+      <a href="../index.html"
+        ><div class="text-center my-auto">
+          <span>
+            <i class="fa fa-home" style="font-size: 25px"></i>
+          </span>
+          <p>خانه</p>
+        </div>
+      </a>
+      <div class="text-center my-auto btnBasket relative">
+        <span
+          class="px-1.5 bg-red absolute right-[25px] rounded-full top-1 py-0.5 elanBasketTedad text-white text-xs"
+          style="height: 20px; display: block"
+        ></span>
+        <span>
+          <i class="fa fa-shopping-basket"></i>
+        </span>
+        <p>سبد خرید</p>
+      </div>
+      <div class="text-center my-auto btn-Submit">
+        <span>
+          <i class="fa fa-user-circle-o"></i>
+        </span>
+        <p>ورود</p>
+      </div>
+    </div>
+
+    <!-- div search menu buttom -->
+    <div class="m-auto rounded p-5 bg-white top-4 text-center hidden" id="DivSerach-MenuButtom">
+      <div class="my-3"></div>
+      <input type="text" class="form-control" placeholder="نام شهر یا محصول را جستو و جو کنید " />
+      <button class="text-white mt-3 bg-primary w-1/4 form-control float-left text-sm" style="background-color: var(--main-color)">تایید</button>
+      <button id="prevMenuButtom" class="text-white mt-3 w-1/4 form-control float-left text-sm" style="background-color: red">بازگشت</button>
+    </div>
+
+    <!-- ResponSive Div Basket Shop  -->
+
+    <section class="h-0">
+      <div class="container">
+        <div class="w-48 z-[1000] fixed Basket shadow-lg p-3" style="display: none; transition: all 0.8s ease">
+          <div id="close-Basket-Div" class="cursor-pointer text-2xl w-max p-2">
+            <i class="fa fa-close"></i>
+          </div>
+          <div class="w-full py-5" style="border-bottom: 1px solid #ccc">
+            <div class="search-icon cursor-pointer">
+              <i class="fa fa-search" style="color: var(--main-color)"></i>
+              <span class="text-[#666] text-sm">جستجو</span>
+            </div>
+            <div class="relative top-0 inputSearch" style="display: none" id="Search">
+              <input type="text" class="form-control mt-0 text-xs p-2" placeholder="محصول را جستجو کنید..." />
+            </div>
+          </div>
+          <div id="BasketShopRespon" class="w-full p-2 py-5 cursor-pointer flex" style="border-bottom: 1px solid #ccc">
+            <i class="fa fa-shopping-basket" style="color: var(--main-color)"></i>
+            <span class="text-[#666] text-sm mx-2">سبد خرید</span>
+            <span class="px-1.5 bg-red rounded-full py-0.5 elanBasketTedad text-white text-xs" style="height: 20px"></span>
+          </div>
+          <div class="w-full p-2 py-5 cursor-pointer relative" style="border-bottom: 1px solid #ccc">
+            <div class="ps-6 poshtibani">
+              <i class="fa fa-envelope absolute top-6 right-2" style="color: var(--main-color)"></i>
+              <span class="Span-City text-[#666] text-sm">پشتیبانی</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Submit -->
+
+      <div class="p-5 w-max" id="Modal-Submit" style="display: none">
+        <div class="ModalSubmit">
+          <i class="fa fa-close absolute top-0 left-2 cursor-pointer !text-2xl p-3 close-Modal"></i>
+          <div class="w-max mx-auto mb-5">
+            <img src="./image/logo.177e5a9 (2).png" alt="" />
+          </div>
+          <p class="text-xl mb-5">ورود / ثبت نام</p>
+          <input type="text" class="form-control input-Submit" placeholder="َشماره موبایل" />
+          <span id="spanNotValue" class="text-red float-right ms-1 my-3 mb-4 text-sm"></span>
+          <button class="Btn-inComplate-Modal" id="Btn-Complate-Modal">ادامه</button>
+          <div>
+            <span class="my-10 text-xs">
+              ورود و عضویت در زودکس به منزله قبول
+              <span style="color: var(--main-color)"><a href="">قوانین و مقررات</a></span>
+              است
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Div Sabad Kharid || Div Basket Shop -->
+
+    <section class="h-0">
+      <div class="h-[100vh] w-[300px] md:w-[372px] fixed left-0 p-6 shadow-xl z-50 overflow-auto DivBasketShop bg-white" style="display: none">
+        <div class="flex justify-between mb-5">
+          <div class="my-auto">
+            <span class="text-sm">سفارش شما</span>
+          </div>
+          <div class="text-3xl px-4 cursor-pointer CloseBasketShop">
+            <i class="fa fa-angle-left"></i>
+          </div>
+        </div>
+
+        <!-- Div Product Is Basket -->
+
+        <div id="Basket-Shop" class=""></div>
+
+        <!-- Div Not SabadKharid -->
+
+        <div class="mt-10 text-center text-sm NotBasket">
+          <img src="./image/Basket.png" alt="" />
+          <span>سبد خرید شما در حال حاضر خالی است .</span>
+        </div>
+
+        <!-- Div Total Price Is Basket Shop -->
+
+        <div class="flex justify-between text-sm my-3">
+          <div class="my-auto">
+            <span class="my-3">جمع سبد خرید شما : </span>
+          </div>
+          <div class="my-auto">
+            <span class="my-3 totalprice float-left">0 تومان </span>
+          </div>
+        </div>
+        <button class="btn-danger float-left" id="clear-Local">حذف همه</button>
+      </div>
+
+      <!-- modal-Citys -->
+
+      <section
+        id="Div-Modal-City"
+        class="fixed left-1/2 w-3/4 lg:w-[538px] bg-white rounded-lg"
+        style="transform: translate(-50%, 50%); display: none; z-index: 1"
+      >
+        <div class="h-max p-4 py-8 rounded-lg shadow text-center">
+          <div class="p-2 absolute left-2 top-2 text-xl cursor-pointer" id="btn-close-modalCity">
+            <i class="fa fa-close"></i>
+          </div>
+          <h2 class="mb-3">شهر</h2>
+          <select name="" id="" class="selectCity">
+            <option value="کرمان">کرمان</option>
+            <option value="مشهد">مشهد</option>
+            <option value="بندرعباس">بندرعباس</option>
+            <option value="سیرجان">سیرجان</option>
+            <option value="رفسنجان">رفسنجان</option>
+            <option value="جیرفت">جیرفت</option>
+            <option value="شیراز" class="visible">شیراز</option>
+            <option value="کیش" class="visible">کیش</option>
+          </select>
+          <br />
+
+          <button class="w-full mt-3 text-white p-2 rounded-lg BtnModalCity" style="background: var(--main-color)">تایید</button>
+        </div>
+      </section>
+      <section style="display: none" id="Modal-Alert_submit">
+        <div class="mb-4">
+          <span>ثبت نام با موفقیت انجام شد</span>
+        </div>
+        <div id="Div-Width" class="h-[3px] bg-slate-200 w-[300px] mx-auto"></div>
+      </section>
+      <div class="h-full w-100"></div>
+    </section>
+    <main class="main h-max pt-[73px]">
+      <div class="w-full h-[500px]">
+        <img src="" alt="" class="w-full h-full object-cover" id="CoverLocal" />
+      </div>
+      <div class="container my-5 p-3">
+        <span> رستوران انتخاب شده : </span>
+        <a href="../index.html" class="DivA"> </a>
+        <a href="../index.html" class="DivQ hidden"> </a>
+        <div class="col-span-3 md:col-span-2 grid grid-cols-2 lg:grid-cols-4 gap-5 pt-20" id="Foroshgah"></div>
+      </div>
+    </main>
+    <br /><br /><br /><br /><br /><br />
+    <script src="./js/foroshgah.js"></script>
+
+    <!-- Body Site -->
+  </body>
+</html>

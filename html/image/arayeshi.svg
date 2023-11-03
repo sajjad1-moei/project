@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2427" data-name="Group 2427" transform="translate(-1848 -40)" style="isolation: isolate">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="makeup" transform="translate(1852.42 42)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 0)">
+        <g id="Layer_1" data-name="Layer 1">
+          <path id="Path_2098" data-name="Path 2098" d="M11.376,27.64v3.108H6.157a.239.239,0,0,1,0-.045V28.651A1.011,1.011,0,0,1,7.1,27.643h4.28Z" transform="translate(-4.442 -19.943)" fill="#929bce"/>
+          <path id="Path_2099" data-name="Path 2099" d="M13.8,20.376v2.019H9.52V21.381a1.011,1.011,0,0,1,1.011-1.011Z" transform="translate(-6.869 -14.698)" fill="#505fb1"/>
+          <path id="Path_2100" data-name="Path 2100" d="M30.311,28.651V30.7a.239.239,0,0,1,0,.045H24.9V27.64h4.483a1.011,1.011,0,0,1,.927,1.011Z" transform="translate(-17.966 -19.943)" fill="#929bce"/>
+          <path id="Path_2101" data-name="Path 2101" d="M18.32,0V5.678H15.78V1.011A1.011,1.011,0,0,1,16.791,0Z" transform="translate(-11.386 0)" fill="#3a4ba7"/>
+          <path id="Path_2102" data-name="Path 2102" d="M27.629,1.011V5.678H24.9V0h1.718a1.008,1.008,0,0,1,1.011,1.011Z" transform="translate(-17.966 0)" fill="#505fb1"/>
+          <path id="Path_2103" data-name="Path 2103" d="M29.383,21.4v1.011H24.9V20.39h3.461A1.011,1.011,0,0,1,29.383,21.4Z" transform="translate(-17.966 -14.712)" fill="#505fb1"/>
+          <circle id="Ellipse_270" data-name="Ellipse 270" cx="7.365" cy="7.365" r="7.365" transform="translate(10.429 13.155)" fill="#ffb900"/>
+          <path id="Path_2104" data-name="Path 2104" d="M6.934,38.8V56H1.011A1.014,1.014,0,0,1,0,54.985V39.811A1.014,1.014,0,0,1,1.011,38.8Z" transform="translate(0 -27.995)" fill="#3a4ba7"/>
+          <path id="Path_2105" data-name="Path 2105" d="M31.987,39.811V54.985A1.014,1.014,0,0,1,30.976,56H24.85V38.8h6.126a1.014,1.014,0,0,1,1.011,1.011Z" transform="translate(-17.93 -27.995)" fill="#505fb1"/>
+          <ellipse id="Ellipse_271" data-name="Ellipse 271" cx="4.873" cy="5.068" rx="4.873" ry="5.068" transform="translate(8.981 15.463)" fill="#a7afd8" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <circle id="Ellipse_272" data-name="Ellipse 272" cx="1.71" cy="1.71" r="1.71" transform="translate(12.144 18.822)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

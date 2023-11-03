@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2408" data-name="Group 2408" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="B4" transform="translate(1850 45.282)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.013)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0)">
+          <path id="Path_2020" data-name="Path 2020" d="M11.7,77.77H37.588v4.483A2.888,2.888,0,0,1,34.7,85.141H14.588A2.888,2.888,0,0,1,11.7,82.253V77.77Z" transform="translate(-9.588 -63.733)" fill="#ffb900"/>
+          <path id="Path_2021" data-name="Path 2021" d="M57.6,27.711l-3.849,13.4a2.222,2.222,0,0,1-2.749,1.522L39.429,39.3a2.224,2.224,0,0,1-1.524-2.751l1.006-3.5L44.975,29.7l.82-.45.765-.422L51.655,26Z" transform="translate(-30.991 -21.309)" fill="#475fb4"/>
+          <path id="Path_2022" data-name="Path 2022" d="M94.734,24.319a3.23,3.23,0,0,1-2.078,2.166h-.009a3.21,3.21,0,0,1-1.892.036L82,24l.765-.422L89.958,19.6l2.578.74a3.217,3.217,0,0,1,2.2,3.979Z" transform="translate(-67.197 -16.064)" fill="#8f9bd0"/>
+          <path id="Path_2023" data-name="Path 2023" d="M88.945,44.5l-.018.058-1.7,5.737-1.914-1.522L77.46,42.522l.816-.45.765-.422Z" transform="translate(-63.476 -34.133)" fill="#475fb4"/>
+          <path id="Path_2024" data-name="Path 2024" d="M46.222,23.678a3.208,3.208,0,0,1-1.986,2.13l-.09.034-2.7,9.387A2.222,2.222,0,0,1,38.7,36.752L27.122,33.419A2.224,2.224,0,0,1,25.6,30.668l.361-1.264,8.929-4.95.82-.45.765-.422L43.671,19.6l.352.1a3.215,3.215,0,0,1,2.2,3.972Z" transform="translate(-20.91 -16.064)" fill="#2e4aaa"/>
+          <path id="Path_2025" data-name="Path 2025" d="M45.692,3.583,38.507,7.568l-.758.422-.816.451L28,13.388l2.329-8.111A3.217,3.217,0,0,1,33.688.135Z" transform="translate(-22.945 -0.013)" fill="#475fb4"/>
+          <ellipse id="Ellipse_237" data-name="Ellipse 237" cx="4.47" cy="4.649" rx="4.47" ry="4.649" transform="translate(0 9.452)" fill="#a4b0da" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <circle id="Ellipse_238" data-name="Ellipse 238" cx="1.567" cy="1.567" r="1.567" transform="translate(2.903 12.534)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

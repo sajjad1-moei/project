@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_2410" data-name="Group 2410" transform="translate(-1848 -40)">
+    <rect id="Rectangle_2009" data-name="Rectangle 2009" width="32" height="32" transform="translate(1848 40)" fill="none"/>
+    <g id="B2" transform="translate(1851 43.074)" style="isolation: isolate">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0 0)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+          <rect id="Rectangle_2010" data-name="Rectangle 2010" width="16.173" height="2.391" transform="translate(12.266 10.074) rotate(45)" fill="#ffb900"/>
+          <path id="Path_2015" data-name="Path 2015" d="M17.353,27.4,11.47,22.622l11.089-11.1,4.769,6.1a7.032,7.032,0,0,1-.57,9.3h0A7.03,7.03,0,0,1,17.353,27.4Z" transform="translate(-9.185 -9.225)" fill="#475fb4"/>
+          <circle id="Ellipse_229" data-name="Ellipse 229" cx="7.835" cy="7.835" r="7.835" fill="#2e4aaa"/>
+          <circle id="Ellipse_230" data-name="Ellipse 230" cx="3.046" cy="3.046" r="3.046" transform="translate(4.789 4.789)" fill="#8f9bd0"/>
+          <circle id="Ellipse_231" data-name="Ellipse 231" cx="2.331" cy="2.331" r="2.331" transform="translate(19.466 21.191)" fill="#ffb900"/>
+          <circle id="Ellipse_232" data-name="Ellipse 232" cx="2.331" cy="2.331" r="2.331" transform="translate(21.338 19.316)" fill="#ffb900"/>
+          <ellipse id="Ellipse_233" data-name="Ellipse 233" cx="4.933" cy="5.13" rx="4.933" ry="5.13" transform="translate(2.903 2.705)" fill="#a4b0da" style="mix-blend-mode: color-burn;isolation: isolate"/>
+          <circle id="Ellipse_234" data-name="Ellipse 234" cx="1.729" cy="1.729" r="1.729" transform="translate(6.106 6.106)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
