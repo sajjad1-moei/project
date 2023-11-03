@@ -180,7 +180,7 @@ header{
 }
 #Modal-Alert_submit{
   transform: translate(-50%, 20%);
-  position: absolute;
+  position: fixed;
   left: 50%;
   background-color: #198754;
   padding: 24px 20px;
