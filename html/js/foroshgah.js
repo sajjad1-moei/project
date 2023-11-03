@@ -667,7 +667,7 @@ function price(array) {
   array.forEach((r) => {
     sum += r.count * r.price;
   });
-  $.querySelector(".totalprice").innerHTML = sum.toLocaleString();
+  $.querySelector(".totalprice").innerHTML = sum.toLocaleString() + " تومان ";
 }
 function elan(array) {
   if (!array) {
