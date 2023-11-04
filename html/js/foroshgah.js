@@ -71,7 +71,6 @@ window.addEventListener("resize", function () {
   } else {
     $.querySelector(".img-logo img").setAttribute("src", "./image/mini-logo.5203e49 (1) (2).svg");
   }
-  console.log(InnerWidthBody);
 });
 if (window.innerWidth > 768) {
   closeDivNavbar();
@@ -169,7 +168,6 @@ function Width() {
   let r = setInterval(() => {
     sum--;
     DivWidthAlertSubmit.style.width = sum + "%";
-    console.log(sum);
     if (sum < -4) {
       clearInterval(r);
       AlertModalSubmit.style.display = "none";
@@ -221,14 +219,11 @@ function a() {
   spanCity[0].innerHTML = r;
   spanCity[1].innerHTML = r;
   localStorage.setItem("city", r);
-  console.log(r);
 }
 BtnModalCity.addEventListener("click", a);
 window.addEventListener("load", () => {
   let y = localStorage.getItem("city");
-  console.log(y);
   selectCity.value = y;
-  console.log(selectCity.value);
   spanCity[0].innerHTML = y;
   spanCity[1].innerHTML = y;
 });
@@ -587,8 +582,6 @@ function ClickDiv(i) {
     userBasket.push(FindMahsol);
     SetLocalMahsol(userBasket);
   }
-  console.log(userBasket);
-  console.log(inasd);
   price(userBasket);
   elan(userBasket);
   notBasket(userBasket);
@@ -622,7 +615,6 @@ function createDivMahsol(array) {
       createDivMahsol(userBasket);
       price(userBasket);
       notBasket(userBasket);
-      console.log(find);
     });
   });
   btnMinus.forEach((btn) => {
@@ -686,5 +678,4 @@ function elan(array) {
   }
 }
 let imgLocal = JSON.parse(localStorage.getItem("img"));
-console.log(imgLocal);
 $.getElementById("CoverLocal").src = imgLocal;

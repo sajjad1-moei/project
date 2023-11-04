@@ -84,7 +84,6 @@ window.addEventListener("resize", function () {
   } else {
     $.querySelector(".img-logo img").setAttribute("src", "./html/image/mini-logo.5203e49 (1) (2).svg");
   }
-  console.log(InnerWidthBody);
 });
 if (window.innerWidth > 768) {
   closeDivNavbar();
@@ -175,7 +174,6 @@ function Width() {
   let r = setInterval(() => {
     sum--;
     DivWidthAlertSubmit.style.width = sum + "%";
-    console.log(sum);
     if (sum < -4) {
       clearInterval(r);
       AlertModalSubmit.style.display = "none";
@@ -227,16 +225,13 @@ function a() {
   spanCity[0].innerHTML = r;
   spanCity[1].innerHTML = r;
   localStorage.setItem("city", r);
-  console.log(r);
   selectCityId.value = r;
 }
 BtnModalCity.addEventListener("click", a);
 window.addEventListener("load", () => {
   let y = localStorage.getItem("city");
-  console.log(y);
   if (y) {
     selectCity.value = y;
-    console.log(selectCity.value);
     spanCity[0].innerHTML = y;
     spanCity[1].innerHTML = y;
     selectCityId.value = y;
@@ -409,7 +404,6 @@ Pishnehad.forEach((div) => {
 });
 
 let y = JSON.parse(localStorage.getItem("prouct"));
-console.log(y);
 let userPishnehad = [].concat(y);
 // Btn Clear Basket
 clear_local.addEventListener("click", () => {
@@ -423,7 +417,6 @@ DivPishnehad.forEach((div) => {
   div.addEventListener("click", () => {
     AddPishnehad(div.id);
     notBasket(userPishnehad);
-    console.log(div);
   });
 });
 function AddPishnehad(id) {
@@ -445,7 +438,6 @@ function AddPishnehad(id) {
 
     localStorage.setItem("prouct", JSON.stringify(userPishnehad));
   }
-  console.log(userPishnehad);
   createElementBasket(userPishnehad);
   priceAll(userPishnehad);
   elan(userPishnehad);
@@ -492,7 +484,6 @@ function plusMahsol(id) {
   let Find = userPishnehad.findIndex((e) => {
     return e.id == id;
   });
-  console.log(Find);
   userPishnehad[Find].count++;
   localStorage.setItem("prouct", JSON.stringify(userPishnehad));
 }
@@ -523,19 +514,11 @@ if (window.innerWidth > 768) {
 function carouselPishnehad(DivCarouselPishnehad, DivPishnehad2) {
   btnCarouselPishnehad.forEach((btn) => {
     btn.addEventListener("click", () => {
-      console.log(btn.id);
       btn.id === "left" ? (DivCarouselPishnehad.scrollLeft -= DivPishnehad2) : (DivCarouselPishnehad.scrollLeft += DivPishnehad2);
     });
   });
 }
-// btnCarouselPishnehad.forEach((btn) => {
-//   btn.addEventListener("click", () => {
-//     console.log(btn.id);
-//     btn.id === "left"
-//       ? (DivCarouselPishnehad.scrollLeft -= DivPishnehad2)
-//       : (DivCarouselPishnehad.scrollLeft += DivPishnehad2);
-//   });
-// });
+
 function elan(array) {
   if (array.length === 0) {
     $.querySelectorAll(".elanBasketTedad").forEach((i) => {

@@ -72,7 +72,6 @@ window.addEventListener("resize", function () {
   } else {
     $.querySelector(".img-logo img").setAttribute("src", "./image/mini-logo.5203e49 (1) (2).svg");
   }
-  console.log(InnerWidthBody);
 });
 if (window.innerWidth > 768) {
   closeDivNavbar();
@@ -171,7 +170,6 @@ function Width() {
   let r = setInterval(() => {
     sum--;
     DivWidthAlertSubmit.style.width = sum + "%";
-    console.log(sum);
     if (sum < -4) {
       clearInterval(r);
       AlertModalSubmit.style.display = "none";
@@ -224,15 +222,11 @@ function a() {
   spanCity[0].innerHTML = r;
   spanCity[1].innerHTML = r;
   localStorage.setItem("city", r);
-
-  console.log(r);
 }
 BtnModalCity.addEventListener("click", a);
 window.addEventListener("load", () => {
   let y = this.localStorage.getItem("city");
-  console.log(y);
   selectCity.value = y;
-  console.log(selectCity.value);
   spanCity[0].innerHTML = y;
   spanCity[1].innerHTML = y;
 });
@@ -616,7 +610,6 @@ function plusMahsol(id) {
   let Find = mahsol.findIndex((e) => {
     return e.img === id;
   });
-  console.log(Find);
   mahsol[Find].count++;
   localStorage.setItem("prouct", JSON.stringify(mahsol));
 }
